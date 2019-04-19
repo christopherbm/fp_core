@@ -1,7 +1,7 @@
 "use strict";
 module.exports = function (options) 
 {
-  const null_apply = require("./fns/null_apply")();
+  const null_apply = require("../fns/null_apply")();
   const result_err = require("./result_err")();
   const result_ok = require("./result_ok")();
 

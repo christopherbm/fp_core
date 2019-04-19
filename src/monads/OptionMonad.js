@@ -1,7 +1,7 @@
 "use strict";
 module.exports = function (options) 
 {
-  const freeze_and_seal = require("./utils/freeze_and_seal")();
+  const freeze_and_seal = require("../utils/freeze_and_seal")();
 
   /**
    * OptionMonad. Is either Some with value or None with no value.

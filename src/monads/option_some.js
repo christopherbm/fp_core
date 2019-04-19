@@ -2,7 +2,7 @@
 module.exports = function (options) 
 {
   const OptionMonad = require("./OptionMonad")();
-  const freeze_and_seal = require("./utils/freeze_and_seal")();
+  const freeze_and_seal = require("../utils/freeze_and_seal")();
 
   /**
    * Create a OptionMonad with some value.

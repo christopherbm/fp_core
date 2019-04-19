@@ -2,7 +2,7 @@
 module.exports = function (options) 
 {
   const ResultMonad = require("./ResultMonad")();
-  const freeze_and_seal = require("./utils/freeze_and_seal")();
+  const freeze_and_seal = require("../utils/freeze_and_seal")();
 
   /**
    * Create a ResultMonad with err value.

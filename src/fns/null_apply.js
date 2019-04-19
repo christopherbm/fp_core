@@ -1,7 +1,7 @@
 "use strict";
 module.exports = function (options) 
 {
-  const args_to_array = require("./utils/args_to_array")();
+  const args_to_array = require("../utils/args_to_array")();
   
   /**
    * Calls apply on the given function using null as "this" and passing the given args object as 
