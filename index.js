@@ -1,6 +1,8 @@
 "use strict";
 module.exports =  
 {
+	"compose": require("./src/fns/compose")(),
+	"cond": require("./src/fns/cond")(),
 	"null_apply": require("./src/fns/null_apply")(),
   
 	"is_err": require("./src/monads/is_err")(),
@@ -22,6 +24,11 @@ module.exports =
 	"unwrap_to": require("./src/monads/is_none")(),
 	"unwrap_to_or": require("./src/monads/unwrap_to_or")(),
 	"wrap_with_monad": require("./src/monads/wrap_with_monad")(),
+
+	"car": require("./src/pair/car")(),
+	"cdr": require("./src/pair/cdr")(),
+	"cons_pair": require("./src/pair/cons_pair")(),
+	"Pair": require("./src/pair/Pair")(),
 
   "args_to_array": require("./src/utils/args_to_array")(),
   "freeze_and_seal": require("./src/utils/freeze_and_seal")(),
