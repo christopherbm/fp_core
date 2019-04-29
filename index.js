@@ -4,6 +4,8 @@ module.exports =
   "async_compose": require("./src/fns/async_compose")(),
   "compose": require("./src/fns/compose")(),
   "cond": require("./src/fns/cond")(),
+  "curry_first": require("./src/fns/curry_first")(),
+  "curry_last": require("./src/fns/curry_last")(),
   "identity": require("./src/fns/identity")(),
   "null_apply": require("./src/fns/null_apply")(),
 
