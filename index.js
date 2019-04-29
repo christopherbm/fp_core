@@ -38,5 +38,7 @@ module.exports =
   "args_to_array": require("./src/utils/args_to_array")(),
   "freeze_and_seal": require("./src/utils/freeze_and_seal")(),
   "has": require("./src/utils/has")(),
+  "is_immutable": require("./src/utils/is_immutable")(),
+  "is_mutable": require("./src/utils/is_mutable")(),
   "is_stype": require("./src/utils/is_stype")(),
 }
