@@ -7,7 +7,6 @@ module.exports = function (options)
    * @param {Object} obj - object to test.
    * @returns {Boolean} - Returns whether or not the field exists on the given object.
    */
-  /*  */
   function has (field, obj) 
   {
     if (obj[field] === undefined) return false;
