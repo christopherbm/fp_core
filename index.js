@@ -1,6 +1,8 @@
 "use strict";
 module.exports =  
 {
+  "Composer": require("./src/composer/Composer")(),
+
   "async_compose": require("./src/fns/async_compose")(),
   "compose": require("./src/fns/compose")(),
   "cond": require("./src/fns/cond")(),
