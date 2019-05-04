@@ -7,4 +7,8 @@ functions without having to worry about promises, callbacks or async/await.
 on 10 data structures." 
 > - Alan Perlis.
 
-You can build **anything** with cond, compose and recur.
+You can build **anything** with cond, compose and recur. Really! Literally any logic can be expressed
+with those three functions. This is why I love functional programming. Once you wrap your mind around
+the building blocks, you start to realize how few of those blocks are really needed. It requires a 
+great deal of effort to untrain yourself to default to OOP patterns, but I believe that this is a 
+better discipline of programming.
