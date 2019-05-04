@@ -1,4 +1,4 @@
-# fp_core
+# thoughts
 It took me quite a while to figure out a method for composing sync and async functions without
 making each function asynchronous (which seems burdensome). This encourages the breakdown of larger
 functions without having to worry about promises, callbacks or async/await.
