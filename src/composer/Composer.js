@@ -45,8 +45,14 @@ module.exports = function (options)
         }
         else 
         {
-          asyncFns.unshift(compose.apply(null, syncGroup.map(fd => fd.fn)));
-          syncGroup = [];
+          // handle sync grouping
+          if (syncGroup.length > 0) 
+          {
+            asyncFns.unshift(compose.apply(null, syncGroup.map(fd => fd.fn)));
+            syncGroup = [];
+          }
+
+          // add next async fn
           asyncFns.unshift(this.compArr[i].fn);
         }
       }
@@ -55,6 +61,7 @@ module.exports = function (options)
       if (syncGroup.length > 0) 
       {
         asyncFns.unshift(compose.apply(null, syncGroup.map(fd => fd.fn)));
+        syncGroup = [];
       }
 
       return async_compose.apply(null, asyncFns);

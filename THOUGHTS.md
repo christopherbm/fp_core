@@ -32,7 +32,7 @@ It might be nice to have a strict/not-strict modes for using STypes.
 Why not use TypeScript? -> I don't really like superset languages and the concept of a "type" here
 is not about classes or OOP but rather something like a struct. It is being used to facilitate
 polymorphism, controlled mutability and creating domain-specific granular type systems based off
-native and algorithmic types.
+native and algorithmic types (like stacks and queues).
 
 I came across the monads in rust for the first time in early 2018. They are a simple pattern, but
 they because really helpful in dealing with logical pipelines, null values and conditional logic. I 
