@@ -1,4 +1,4 @@
-# fp_core
+# fp_core - Chris Myers
 [ALPHA]
 Core functional programming logic in Javascript. Inspired by Clojure and Rust.
 
