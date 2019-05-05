@@ -35,13 +35,13 @@ switch statement.
 ```javascript
 cond(
   [   // true branch
-  	  (input) => { return (input === true); },
-  	  (input) => { /* true branch logic */ }
+  	(input) => { return (input === true); },
+  	(input) => { /* true branch logic */ }
   ],
 
   [   // false branch
-  	  (input) => { return (input === false); },
-      (input) => { /* false branch logic */ }
+  	(input) => { return (input === false); },
+    (input) => { /* false branch logic */ }
   ],
 )(true);
 // executes true branch logic
